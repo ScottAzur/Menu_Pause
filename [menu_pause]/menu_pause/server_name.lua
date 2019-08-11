@@ -11,5 +11,5 @@ players = {}
       end
   end
 Citizen.CreateThread(function()
- AddTextEntry('FE_THDR_GTAO', '~y~START FRANCE RP ~u~|~b~ ID : ' .. GetPlayerServerId(PlayerId()) .. ' ~u~|~b~ NOM : ' ..GetPlayerName(id)..' ~u~|~r~ JOUEURS : '.. #players .. '/32')
+ AddTextEntry('FE_THDR_GTAO', '~y~NOM DU SERVER ~u~|~b~ ID : ' .. GetPlayerServerId(PlayerId()) .. ' ~u~|~b~ NOM : ' ..GetPlayerName(id)..' ~u~|~r~ JOUEURS : '.. #players .. '/32')
 end)
